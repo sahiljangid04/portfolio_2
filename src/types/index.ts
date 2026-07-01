@@ -34,19 +34,6 @@ export interface Contributor {
   linkedin?: string;
 }
 
-/** Timeline milestone for a project */
-export interface Milestone {
-  date: string;
-  title: string;
-  description: string;
-}
-
-/** Project timeline section */
-export interface ProjectTimeline {
-  startDate: string;
-  endDate: string;
-  milestones: Milestone[];
-}
 
 /** Detailed tech stack breakdown */
 export interface TechStackDetails {
@@ -81,7 +68,6 @@ export interface Project {
   techStackDetails: TechStackDetails;
   links: ProjectLinks;
   contributors: Contributor[];
-  timeline: ProjectTimeline;
   /** ISO date for sorting (newest first) */
   completedAt: string;
 }
