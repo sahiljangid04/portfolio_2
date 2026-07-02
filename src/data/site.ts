@@ -28,11 +28,11 @@ export const siteConfig: SiteConfig = {
     "Anime",
   ],
   careerObjective:
-    "To secure a role in Data Science, Machine Learning, or AI where I can contribute to impactful projects while continuing to grow through hands-on experience and mentorship.",
+    "To secure a role in Data Science, Machine Learning, or AI where I can contribute to impactful projects while continuing to grow through hands on experience and mentorship.",
   professionalSummary:
-    "Motivated data science student with a strong foundation in Python, statistical modeling, and machine learning. Experienced in end-to-end ML pipelines—from data preprocessing and exploratory analysis to model training, evaluation, and deployment. Comfortable working with structured and unstructured data, building dashboards, and collaborating on team projects.",
+    "Motivated data science student with a strong foundation in Python, statistical modeling, and machine learning. Experienced in end-to-end ML pipelines from data preprocessing and exploratory analysis to model training, evaluation, and deployment. Comfortable working with structured and unstructured data, building dashboards, and collaborating on team projects.",
   careerGoals: [
-    "Build production-grade ML systems and contribute to open-source AI projects",
+    "Build production grade ML systems and contribute to open-source AI projects",
     "Deepen expertise in deep learning, NLP, and MLOps",
     "Transition into a full-time Data Scientist or ML Engineer role",
     "Publish research or technical articles on applied machine learning",

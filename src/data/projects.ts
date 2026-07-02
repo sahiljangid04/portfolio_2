@@ -15,7 +15,7 @@ export const projects: Project[] = [
     slug: "bank-loan-risk-analytics",
     title: "Bank Loan Risk Analytics",
     shortDescription:
-      "Streamlit-powered analytics and ML for loan default prediction: 97.3% ROC-AUC, actionable dashboards for risk teams.",
+      "Streamlit-powered analytics and ML for loan default prediction: 70.34% ROC-AUC, actionable dashboards for risk teams.",
     category: "Finance & ML",
     techStack: ["Python", "Scikit-Learn", "Streamlit", "Pandas", "Matplotlib"],
     featured: true,
@@ -32,18 +32,18 @@ export const projects: Project[] = [
       "Streamlit dashboard for risk scoring and what-if analysis",
     ],
     datasetDescription:
-      "Public bank loan dataset: 60,000+ applications, 12+ features (credit history, income, loan amount, term, etc.), default label (~8% default rate).",
+      "The dataset contains detailed loan application and performance data used for risk modeling and business insights (Final Analytics Dataset: 2,260,638 rows × 36 columns).",
     methodology:
       "Cleaned and encoded data, imputed missing values, engineered risk features. Trained and tuned classifiers with stratified splits. Used cross-validation for robust metrics.",
     modelArchitecture:
-      "Best model: XGBoost (tuned). Compared to Logistic Regression and Random Forest. SHAP used for interpretability.",
+      "Best model: Optimized Logistic Regression. Compared to Logistic Regression and Random Forest. SHAP used for interpretability.",
     results:
-      "XGBoost ROC-AUC: 97.3%, Recall: 89.2%, Precision: 81.5%. Dashboard enables scenario analysis and risk scoring for new applicants.",
+      "Optimized Logistic Regression ROC-AUC: 70.3%, Recall: 54.2%, Precision: 23.5%. Dashboard enables scenario analysis and risk scoring for new applicants.",
     evaluationMetrics: [
-      { label: "ROC-AUC", value: "97.3%" },
-      { label: "Recall", value: "89.2%" },
-      { label: "Precision", value: "81.5%" },
-      { label: "Applications", value: "60,000+" },
+      { label: "ROC-AUC", value: "70.78%" },
+      { label: "Recall", value: "54.84%" },
+      { label: "Precision", value: "23.43%" },
+      { label: "Applications", value: "2.5M+" },
     ],
     challenges: [
       "Imbalanced default labels",
@@ -76,7 +76,7 @@ export const projects: Project[] = [
       },
     ],
     techStackDetails: {
-      libraries: ["Pandas", "NumPy", "Scikit-Learn", "XGBoost", "Matplotlib", "SHAP"],
+      libraries: ["Pandas", "NumPy", "Scikit-Learn", "Regression", "Matplotlib", "SHAP"],
       frameworks: ["Streamlit"],
       tools: ["Jupyter Notebook", "Git"],
     },
@@ -89,7 +89,7 @@ export const projects: Project[] = [
         name: "Sahil Jangid",
         role: "ML Engineer",
         github: "https://github.com/sahiljangid04",
-        linkedin: "https://linkedin.com/in/sahiljangidpro",
+        linkedin: "https://www.linkedin.com/in/sahil-jangid-45018a311/",
       },
     ],
     completedAt: "",
@@ -211,7 +211,6 @@ export const projects: Project[] = [
       "Best model: Random Forest Regressor with test RMSE ₹1.27 lakh and R² score 0.86. Identified top 10 most affordable and most expensive locations. Provided actionable recommendations for buyers and realtors.",
     evaluationMetrics: [
       { label: "Test R²", value: "0.86" },
-      { label: "Test RMSE", value: "₹1.27 lakh" },
       { label: "Train R²", value: "0.92" },
       { label: "Locations Analyzed", value: "240+" },
     ],
@@ -258,7 +257,7 @@ export const projects: Project[] = [
         name: "Sahil Jangid",
         role: "Data Scientist",
         github: "https://github.com/sahiljangid04",
-        linkedin: "https://linkedin.com/in/sahiljangidpro",
+        linkedin: "https://www.linkedin.com/in/sahil-jangid-45018a311/",
       },
     ],
     completedAt: "",
@@ -291,11 +290,11 @@ export const projects: Project[] = [
     modelArchitecture:
       "Best model: XGBoost Classifier with tuned hyperparameters. Compared to Logistic Regression and Random Forest. Threshold optimized for recall.",
     results:
-      "XGBoost ROC-AUC: 99.7%, Recall: 92.5%, Precision: 88.1%. Detected 456/492 frauds in test set. Feature importance highlighted key predictors.",
+      "XGBoost ROC-AUC: 84.4%, Recall: 66%, Precision: 34%. Detected 456/492 frauds in test set. Feature importance highlighted key predictors.",
     evaluationMetrics: [
-      { label: "ROC-AUC", value: "99.7%" },
-      { label: "Recall (Fraud)", value: "92.5%" },
-      { label: "Precision (Fraud)", value: "88.1%" },
+      { label: "ROC-AUC", value: "84.4%" },
+      { label: "Recall (Fraud)", value: "66%" },
+      { label: "Precision (Fraud)", value: "34%" },
       { label: "Transactions", value: "284,807" },
     ],
     challenges: [
@@ -423,7 +422,7 @@ export const projects: Project[] = [
         name: "Sahil Jangid",
         role: "Data Analyst & SQL Developer",
         github: "https://github.com/sahiljangid04",
-        linkedin: "https://linkedin.com/in/sahiljangidpro",
+        linkedin: "https://www.linkedin.com/in/sahil-jangid-45018a311/",
       },
     ],
     completedAt: "",
@@ -505,7 +504,7 @@ export const projects: Project[] = [
         name: "Sahil Jangid",
         role: "Business Analyst",
         github: "https://github.com/sahiljangid04",
-        linkedin: "https://linkedin.com/in/sahiljangidpro",
+        linkedin: "https://www.linkedin.com/in/sahil-jangid-45018a311/",
       },
     ],
     completedAt: "",
