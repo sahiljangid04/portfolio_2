@@ -25,7 +25,7 @@ export const socialLinks: SocialLink[] = [
   {
     id: "portfolio",
     label: "Portfolio",
-    url: "https://yourportfolio.vercel.app",
+    url: "https://sahiljangid.vercel.app/",
     icon: "portfolio",
   },
 ];
