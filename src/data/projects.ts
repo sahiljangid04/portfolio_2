@@ -65,13 +65,13 @@ export const projects: Project[] = [
       {
         id: "resume-2",
         type: "image",
-        src: "/images/projects/1/screenshot-1.png",
+        src: "/images/projects/1/Screenshot-2.png",
         alt: "SHAP feature importance plot",
       },
       {
         id: "resume-3",
         type: "image",
-        src: "/images/projects/1/screenshot-2.png",
+        src: "/images/projects/1/Screenshot-2.png",
         alt: "Loan default prediction UI",
       },
     ],
