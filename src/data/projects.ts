@@ -19,7 +19,7 @@ export const projects: Project[] = [
     category: "Finance & ML",
     techStack: ["Python", "Scikit-Learn", "Streamlit", "Pandas", "Matplotlib"],
     featured: true,
-    thumbnail: "/images/projects/resume-ai/thumb.svg",
+    thumbnail: "/images/projects/1/thumb.png",
     overview:
       "Built a Streamlit app for bank loan risk analytics, including EDA, feature engineering, and ML models to predict defaults. Provided interpretable dashboards and business recommendations.",
     problemStatement:
@@ -59,19 +59,19 @@ export const projects: Project[] = [
       {
         id: "resume-1",
         type: "image",
-        src: "/images/projects/resume-ai/screenshot-1.svg",
+        src: "/images/projects/1/thumb.png",
         alt: "Risk dashboard overview",
       },
       {
         id: "resume-2",
         type: "image",
-        src: "/images/projects/resume-ai/screenshot-2.svg",
+        src: "/images/projects/1/screenshot-1.png",
         alt: "SHAP feature importance plot",
       },
       {
         id: "resume-3",
         type: "image",
-        src: "/images/projects/resume-ai/screenshot-3.svg",
+        src: "/images/projects/1/screenshot-2.png",
         alt: "Loan default prediction UI",
       },
     ],
@@ -102,7 +102,7 @@ export const projects: Project[] = [
     category: "Business Analytics & Data Science",
     techStack: ["Python", "Pandas", "Scikit-Learn", "Plotly", "Dash", "Power BI"],
     featured: true,
-    thumbnail: "/images/projects/retail-consumer-intel/thumb.svg",
+    thumbnail: "/images/projects/2/thumb.png",
     overview:
       "Developed an end-to-end analytics and ML platform for the Olist e-commerce dataset. Covered customer segmentation, sales/product analytics, time series forecasting, and interactive dashboards to empower marketing, finance, and operations teams with actionable insights.",
     problemStatement:
@@ -145,19 +145,19 @@ export const projects: Project[] = [
       {
         id: "retail-1",
         type: "image",
-        src: "/images/projects/retail-consumer-intel/sales-trends.svg",
+        src: "/images/projects/2/thumb.png",
         alt: "Sales trends and seasonality dashboard",
       },
       {
         id: "retail-2",
         type: "image",
-        src: "/images/projects/retail-consumer-intel/customer-segmentation.svg",
+        src: "/images/projects/2/1.png",
         alt: "Customer segmentation clusters",
       },
       {
         id: "retail-3",
         type: "image",
-        src: "/images/projects/retail-consumer-intel/forecast-results.svg",
+        src: "/images/projects/2/2.png",
         alt: "Sales forecasting model results",
       },
     ],
@@ -188,7 +188,7 @@ export const projects: Project[] = [
     category: "Regression & Analytics",
     techStack: ["Python", "Pandas", "Scikit-Learn", "Matplotlib", "Seaborn"],
     featured: true,
-    thumbnail: "/images/projects/sign-language/thumb.svg",
+    thumbnail: "/images/projects/3/thumb.png",
     overview:
       "Comprehensive data analysis and ML modeling on Bangalore housing data to predict property prices and uncover market trends. Included deep EDA, feature engineering, regression modeling, and actionable insights for buyers and realtors.",
     problemStatement:
@@ -228,19 +228,19 @@ export const projects: Project[] = [
       {
         id: "isl-1",
         type: "image",
-        src: "/images/projects/sign-language/screenshot-1.svg",
+        src: "/images/projects/3/thumb.png",
         alt: "Price distribution and outlier plot",
       },
       {
         id: "isl-2",
         type: "image",
-        src: "/images/projects/sign-language/screenshot-2.svg",
+        src: "/images/projects/3/1.svg",
         alt: "Location-wise price heatmap",
       },
       {
         id: "isl-3",
         type: "image",
-        src: "/images/projects/sign-language/screenshot-3.svg",
+        src: "/images/projects/3/2.png",
         alt: "Model performance comparison",
       },
     ],
