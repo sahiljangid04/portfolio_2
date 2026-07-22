@@ -234,7 +234,7 @@ export const projects: Project[] = [
       {
         id: "isl-2",
         type: "image",
-        src: "/images/projects/3/1.svg",
+        src: "/images/projects/3/1.jpeg",
         alt: "Location-wise price heatmap",
       },
       {

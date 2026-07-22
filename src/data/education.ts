@@ -16,7 +16,7 @@ export const education: Education[] = [
     highlights: [
       "Relevant coursework: Probability & Statistics, Linear Algebra, Data Mining",
       "Final year project in Deep Learning",
-      "CGPA: 8.00 / 10.0",
+      "CGPA: 7.5 / 10.0",
     ],
   },
   {

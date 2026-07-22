@@ -6,6 +6,15 @@ import type { Certification } from "@/types";
  */
 export const certifications: Certification[] = [
   {
+    id: "albs-data",
+    title: "Data Science",
+    provider: "Analytixlabs / E&ICT Academy/ IIT Guwahati",
+    category: "Data Science",
+    completionDate: "2026-10-6",
+    credentialUrl: "https://drive.google.com/file/d/1cAnFIXu8ygVXD0z2gED7fcGeUhCUGchB/view?usp=drive_link",
+    image: "/images/certifications/alabs_data.png",
+  },
+  {
     id: "alabs-dva",
     title: "Data Analyst(Excel, SQL,PowerBI)",
     provider: "Analytixlabs / E&ICT Academy/ IIT Guwahati",
